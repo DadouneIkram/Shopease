@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>E-commerce</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style/sytle.css" />
+
+
+</head>
+
+<body>
+
+
+
+  <header class="navbar" id="navbar">
+    <div class="navdiv">
+      <div class="logo"><a href="/index.html">SHOPEASE</a> </div>
+
+      <ul class="navbarr">
+        <li><a href="#home" id="active"> Home</a></li>
+        <li><a href="#shop"> Shop</a></li>
+        <li><a href="#products"> Product</a></li>
+        <li><a href="#about-us"> About us</a></li>
+        <li><a href="#contact-us"> Contact us</a></li>
+
+      </ul>
+      <div id="signbutton">
+        <button id="star_ex" style="margin-right: -55px;"> <a>Sign in</a></button>
+      </div>
+      <div id="signbutton-up">
+        <button id="search-btn"> <a>Sign up</a></button>
+      </div>
+    </div>
+    <header>
+
+
+
+      <section id="home" class="home">
+        <div class="content">
+          <p id="title">YOUR ULTIMATE SHOPPING DESTINATION</p>
+          <p id="sous-titre">Where quality meets convenience</p>
+          <div class="box">
+            <i class="fa fa-search search-icon" aria-hidden="true"></i>
+            <input type="search" placeholder="Search">
+          </div>
+          <br>
+          <div class="btn">
+            <button type="button" id="search-btn"><a href="#"> Search</a></button>
+            <button type="button" id="star_ex"><a href="#">Start exploring</a></button>
+          </div>
+        </div>
+        <div class="reseaux">
+          <a href="https://www.facebook.com/Ikram.dadoune" target="_blank"><img src="./assets/reseaux/fb.png"></a>
+          <a href="#"><img src="./assets/reseaux/meta.png"></a>
+          <a href="https://www.instagram.com/dadoune__ikram/" target="_blank"><img src="./assets/reseaux/ig.png"></a>
+          <a href="#"><img src="./assets/reseaux/Messenger.png"></a>
+          <a href="#"><img src="./assets/reseaux/WhatsApp.png"></a>
+          <a href="https://www.linkedin.com/in/ikram-dadoune-1b5080233/" target="_blank"><img
+              src="./assets/reseaux/LinkedIn.png"></a>
+          <a href="#"><img src="./assets/reseaux/Twitter.png"></a>
+          <a href="#"><img src="./assets/reseaux/Google.png"></a>
+          <a href="#"><img src="./assets/reseaux/Snapchat.png"></a>
+          <a href="#"><img src="./assets/reseaux/YouTube.png"></a>
+          <div>
+      </section>
+
+
+      <div class="modal" id="model">
+        <div class="modal-con" id="modal-con">
+
+          <form action="">
+            <h2 style="text-align: center; font-weight: 700; font-size: 40px;">Sign in</h2>
+            <input type="email" placeholder="E-mail / Phone number">
+            <input type="password" placeholder="Password">
+            <div class="remember-me">
+              <div>
+                <input type="checkbox">
+              </div>
+              <div>
+                <span>Remember me</span>
+              </div>
+            </div>
+            <button type="submit"> Sign in</button>
+            <p style="display: flex; justify-content: end;"><a href="" style="color: black;">Forgot password !</a></p>
+          <br>
+            <div class="line-with-text">
+              <hr class="line">
+              <span class="text">Or sign in with</span>
+              <hr class="line">
+            </div>
+            <div class="res-up">
+              <a href="#">
+                <img src="/assets/reseaux/gg.png" alt="">
+              </a>
+              <a href="#">
+                <img src="/assets/reseaux/apple.png" alt="">
+              </a>
+              <a href="#">
+                <img src="/assets/reseaux/fab.png" alt="">
+              </a>
+              <a href="#">
+                <img src="/assets/reseaux/twt.png" alt="">
+              </a>
+            </div>
+            <div class="sign-up" style="text-align: center; margin-top: 10px;">
+              <span>Don't have a account ?</span>
+              <a id="signin-up" style="color:#1774D3; text-decoration: underline; margin-left: 5px; cursor: pointer;"> Sign Up</a>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+
+      <div class="modal-up" id="modal-up">
+        <div class="modal-content-up" style="padding: 30px 20px;">
+
+          <form action="">
+            <h2 style="text-align: center; font-weight: 700; font-size: 40px;">Sign up</h2>
+            <div class="name">
+              <input type="text" placeholder="First name" required>
+              <input type="text" placeholder="Seconde name" required>
+            </div>
+            <input type="email" placeholder="E-mail / Phone number">
+            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Confirm password">
+            <button type="submit"> Sign up</button>
+            <br>
+            <div class="line-with-text">
+              <hr class="line">
+              <span class="text">Or sign up with</span>
+              <hr class="line">
+            </div>
+            <div class="res-up">
+              <a href="#">
+                <img src="/assets/reseaux/gg.png" alt="">
+              </a>
+              <a href="#">
+                <img src="/assets/reseaux/apple.png" alt="">
+              </a>
+              <a href="#">
+                <img src="/assets/reseaux/fab.png" alt="">
+              </a>
+              <a href="#">
+                <img src="/assets/reseaux/twt.png" alt="">
+              </a>
+            </div>
+            <div class="sign-up" style="text-align: center; margin-top: 10px;">
+              <span>Do you have an account ?</span>
+              <a id="signup-in" style="color:#1774D3; text-decoration: underline; margin-left: 5px; cursor: pointer;" > Sign in</a>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+      <section id="shop" class="shop">
+        <h3>Shop by categories</h3>
+
+        <div class="wrapper">
+          <div class="carousel owl-carousel">
+            <div class="bg">
+              <div class="card" id="C1"></div>
+              <p class="card-title"> Clothes</p>
+            </div>
+            <div>
+              <div class="card" id="C2"></div>
+              <p class="card-title"> Makeup</p>
+            </div>
+            <div>
+              <div class="card" id="C3"></div>
+              <p class="card-title"> Parfum</p>
+            </div>
+            <div>
+              <div class="card" id="C4"></div>
+              <p class="card-title"> Clothes</p>
+            </div>
+            <div>
+              <div class="card" id="C5"></div>
+              <p class="card-title"> Makeup</p>
+            </div>
+            <div>
+              <div class="card" id="C6"></div>
+              <p class="card-title"> Parfum</p>
+            </div>
+            <div>
+              <div class="card" id="C4"></div>
+              <p class="card-title"> Clothes</p>
+            </div>
+            <div>
+              <div class="card" id="C5"></div>
+              <p class="card-title"> Makeup</p>
+            </div>
+            <div>
+              <div class="card" id="C6"></div>
+              <p class="card-title"> Parfum</p>
+            </div>
+          </div>
+        </div>
+        <p class="see-more"><a href="#">See more</a></p>
+      </section>
+
+
+      <section class="products" id="products">
+        <h3>Our products</h3>
+        <div class="wrapper">
+          <div class="carousel owl-carousel">
+            <div class="cards">
+              <img src="./assets/product.png" alt="">
+              <p class="product-title"> Face cream</p>
+              <p class="description-product">Infused with botanical extracts, antioxidants, and vitamins</p>
+              <div class="price-quantite">
+                <p id="price">15$</p>
+                <div class="quantitee">
+                  <i class="fa-regular fa-square-minus" onclick="decrement()"></i>
+                  <h4><span id="number_quantite">1</span></h4>
+                  <i class="fa-regular fa-square-plus" onclick="increment()"></i>
+                </div>
+              </div>
+              <button> Buy Now</button>
+              <br>
+            </div>
+            <div class="cards">
+              <img src="./assets/product.png" alt="">
+              <p class="product-title"> Face cream</p>
+              <p class="description-product">Infused with botanical extracts, antioxidants, and vitamins</p>
+              <div class="price-quantite">
+                <p id="price">15$</p>
+                <div class="quantitee">
+                  <i class="fa-regular fa-square-minus" onclick="decrement()"></i>
+                  <h4><span class="number_quantite">1</span></h4>
+                  <i class="fa-regular fa-square-plus" onclick="increment()"></i>
+                </div>
+              </div>
+              <button> Buy Now</button>
+              <br>
+            </div>
+            <div class="cards">
+              <img src="./assets/product.png" alt="">
+              <p class="product-title"> Face cream</p>
+              <p class="description-product">Infused with botanical extracts, antioxidants, and vitamins</p>
+              <div class="price-quantite">
+                <p id="price">15$</p>
+                <div class="quantitee">
+                  <i class="fa-regular fa-square-minus" onclick="decrement()"></i>
+                  <h4><span class="number_quantite">1</span></h4>
+                  <i class="fa-regular fa-square-plus" onclick="increment()"></i>
+                </div>
+              </div>
+              <button> Buy Now</button>
+              <br>
+            </div>
+            <div class="cards">
+              <img src="./assets/product.png" alt="">
+              <p class="product-title"> Face cream</p>
+              <p class="description-product">Infused with botanical extracts, antioxidants, and vitamins</p>
+              <div class="price-quantite">
+                <p id="price">15$</p>
+                <div class="quantitee">
+                  <i class="fa-regular fa-square-minus" onclick="decrement()"></i>
+                  <h4><span class="number_quantite">1</span></h4>
+                  <i class="fa-regular fa-square-plus" onclick="increment()"></i>
+                </div>
+              </div>
+              <button> Buy Now</button>
+              <br>
+            </div>
+            <div class="cards">
+              <img src="./assets/product.png" alt="">
+              <p class="product-title"> Face cream</p>
+              <p class="description-product">Infused with botanical extracts, antioxidants, and vitamins</p>
+              <div class="price-quantite">
+                <p id="price">15$</p>
+                <div class="quantitee">
+                  <i class="fa-regular fa-square-minus" onclick="decrement()"></i>
+                  <h4><span class="number_quantite">1</span></h4>
+                  <i class="fa-regular fa-square-plus" onclick="increment()"></i>
+                </div>
+              </div>
+              <button> Buy Now</button>
+              <br>
+            </div>
+            <div class="cards">
+              <img src="./assets/product.png" alt="">
+              <p class="product-title"> Face cream</p>
+              <p class="description-product">Infused with botanical extracts, antioxidants, and vitamins</p>
+              <div class="price-quantite">
+                <p id="price">15$</p>
+                <div class="quantitee">
+                  <i class="fa-regular fa-square-minus" onclick="decrement()"></i>
+                  <h4><span class="number_quantite">1</span></h4>
+                  <i class="fa-regular fa-square-plus" onclick="increment()"></i>
+                </div>
+              </div>
+              <button> Buy Now</button>
+              <br>
+            </div>
+            <div class="cards">
+              <img src="./assets/product.png" alt="">
+              <p class="product-title"> Face cream</p>
+              <p class="description-product">Infused with botanical extracts, antioxidants, and vitamins</p>
+              <div class="price-quantite">
+                <p id="price">15$</p>
+                <div class="quantitee">
+                  <i class="fa-regular fa-square-minus" onclick="decrement()"></i>
+                  <h4><span class="number_quantite">1</span></h4>
+                  <i class="fa-regular fa-square-plus" onclick="increment()"></i>
+                </div>
+              </div>
+              <button> Buy Now</button>
+              <br>
+            </div>
+            <div class="cards">
+              <img src="./assets/product.png" alt="">
+              <p class="product-title"> Face cream</p>
+              <p class="description-product">Infused with botanical extracts, antioxidants, and vitamins</p>
+              <div class="price-quantite">
+                <p id="price">15$</p>
+                <div class="quantitee">
+                  <i class="fa-regular fa-square-minus" onclick="decrement()"></i>
+                  <h4><span class="number_quantite">1</span></h4>
+                  <i class="fa-regular fa-square-plus" onclick="increment()"></i>
+                </div>
+              </div>
+              <button> Buy Now</button>
+              <br>
+            </div>
+            <div class="cards">
+              <img src="./assets/product.png" alt="">
+              <p class="product-title"> Face cream</p>
+              <p class="description-product">Infused with botanical extracts, antioxidants, and vitamins</p>
+              <div class="price-quantite">
+                <p id="price">15$</p>
+                <div class="quantitee">
+                  <i class="fa-regular fa-square-minus" onclick="decrement()"></i>
+                  <h4><span class="number_quantite">1</span></h4>
+                  <i class="fa-regular fa-square-plus" onclick="increment()"></i>
+                </div>
+              </div>
+              <button> Buy Now</button>
+              <br>
+            </div>
+          </div>
+        </div>
+        <p class="see-more"><a href="/html/allProduct.html">See more</a></p>
+      </section>
+
+
+      <section class="about-us" id="about-us">
+        <div class="all">
+          <div class="photo">
+            <img id="back-ab" src="assets/back-about.png" alt="">
+            <img id="about-img" src="assets/about.png" alt="">
+          </div>
+          <div class="about">
+            <h3> About Us</h3>
+            <p>At Shopease, our journey began with a simple idea: to create a shopping experience that's as delightful
+              as it is accessible. We believe that every individual should have the opportunity to express themselves
+              through fashion and beauty, without compromising on quality or breaking the bank.</p>
+          </div>
+        </div>
+
+        <p class="see-more"><a href="#">Learn more</a></p>
+      </section>
+
+
+      <section class="comment" id="comment">
+
+        <p>Don’t just take our word for it , read what our customers <br> have to say about their secure shopping
+          experience</p>
+
+        <div class="wrapper">
+          <div class="carousell owl-carousel">
+            <div class="cards">
+              <div class="card-one">
+                <div class="person">
+                  <div class="pic-name">
+                    <img src="/assets/ii.jpg" alt="">
+                    <div>
+                      <h3>Ikram Dadoune</h3>
+                      <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <p>Wow, Shopease has truly become my go-to destination for all things fashion and beauty! The selection
+                  of products is incredible, and I love how easy it is to find exactly what I'm looking for</p>
+              </div>
+
+              <div class="card-one">
+                <div class="person">
+                  <div class="pic-name">
+                    <img src="/assets/ii.jpg" alt="">
+                    <div>
+                      <h3>Ikram Dadoune</h3>
+                      <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <p>Wow, Shopease has truly become my go-to destination for all things fashion and beauty! The selection
+                  of products is incredible, and I love how easy it is to find exactly what I'm looking for</p>
+              </div>
+
+
+            </div>
+
+
+
+            <div class="cards">
+              <div class="card-one">
+                <div class="person">
+                  <div class="pic-name">
+                    <img src="/assets/ii.jpg" alt="">
+                    <div>
+                      <h3>Ikram Dadoune</h3>
+                      <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <p>Wow, Shopease has truly become my go-to destination for all things fashion and beauty! The selection
+                  of products is incredible, and I love how easy it is to find exactly what I'm looking for</p>
+              </div>
+
+              <div class="card-one">
+                <div class="person">
+                  <div class="pic-name">
+                    <img src="/assets/ii.jpg" alt="">
+                    <div>
+                      <h3>Ikram Dadoune</h3>
+                      <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <p>Wow, Shopease has truly become my go-to destination for all things fashion and beauty! The selection
+                  of products is incredible, and I love how easy it is to find exactly what I'm looking for</p>
+              </div>
+
+
+            </div>
+
+            <div class="cards">
+              <div class="card-one">
+                <div class="person">
+                  <div class="pic-name">
+                    <img src="/assets/ii.jpg" alt="">
+                    <div>
+                      <h3>Ikram Dadoune</h3>
+                      <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <p>Wow, Shopease has truly become my go-to destination for all things fashion and beauty! The selection
+                  of products is incredible, and I love how easy it is to find exactly what I'm looking for</p>
+              </div>
+
+              <div class="card-one">
+                <div class="person">
+                  <div class="pic-name">
+                    <img src="/assets/ii.jpg" alt="">
+                    <div>
+                      <h3>Ikram Dadoune</h3>
+                      <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                        <i class="fa-solid fa-star" style="color: #fc7f00;"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <p>Wow, Shopease has truly become my go-to destination for all things fashion and beauty! The selection
+                  of products is incredible, and I love how easy it is to find exactly what I'm looking for</p>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+      </section>
+
+
+
+      <section class="promotion" id="promotion">
+        <div class="contain">
+          <div class="text">
+            <p id="chance">LAST CHANCE TO THIS SPECIAL OFFER</p>
+            <p>25 % OFF</p>
+            <p id="code">Use this code : XRT2015</p>
+            <button>SHOP NOW</button>
+          </div>
+          <div class="fille">
+            <img src="assets/fille.png" alt="">
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-us" id="contact-us">
+        <h2 style="text-align: center; margin-top: 50px;">IF you have any problem do not hesitate to </h2>
+        <div class="contact">
+          <div class="form">
+            <h4>CONTACT US</h4>
+            <div class="name">
+              <input type="text" placeholder="First name" required>
+              <input type="text" placeholder="Seconde name" required>
+            </div>
+            <input type="email" placeholder="E-mail" required>
+
+            <textarea name="" id="" cols="30" rows="5" placeholder="Enter Your Message" required></textarea>
+
+            <button> <a href="">Send message</a></button>
+          </div>
+          <img src="assets/contact.png" alt="">
+        </div>
+
+        <div class="boxes">
+          <div class="box">
+            <i class="fa-regular fa-envelope"></i>
+            <h3 style="margin: 10px 0;">E-mail</h3>
+            <p style="color: #FC7F00;">i.dadoune@esi-sba.dz</p>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-phone"></i>
+            <h3 style="margin: 10px 0;">Phone</h3>
+            <p style="color: #FC7F00;">0783818773</p>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-location-dot"></i>
+            <h3 style="margin: 10px 0;">Our office</h3>
+            <p style="color: #FC7F00;">Tissemsilt , Algeria</p>
+          </div>
+          <div class="box">
+            <i class="fa-regular fa-circle-question"></i>
+            <h3 style="margin: 10px 0;">Help Center/FAQ</h3>
+            <p style="color: #FC7F00;">Check link</p>
+          </div>
+        </div>
+        <p class="see-more" style="margin-top: 25px;"><a href="#">Help Center</a></p>
+
+        <div class="img">
+          <img src="assets/qualite/1.png" alt="">
+          <img src="assets/qualite/2.png" alt="">
+          <img src="assets/qualite/3.png" alt="">
+          <img src="assets/qualite/4.png" alt="">
+        </div>
+        <p class="see-more" style="margin-top: 25px;"><a href="#">Read more about our security policy</a></p>
+      </section>
+
+      <section class="payment" id="payment">
+        <h2 style="text-align: center; margin-top: 50px;">Look for the following trusted payment icons below to see the
+          payment methods we accept </h2>
+        <div class="method-pay">
+          <img src="/assets/payment/Meta.png" alt="">
+          <img src="/assets/payment/Visa.png" alt="">
+          <img src="/assets/payment/Cirrus.png" alt="">
+          <img src="/assets/payment/GooglePay.png" alt="">
+          <img src="/assets/payment/ApplePay.png" alt="">
+          <img src="/assets/payment/MasterCard.png" alt="">
+          <img src="/assets/payment/Bitcoin.png" alt="">
+        </div>
+        <div class="get-in-touch">
+          <h4>Get In Touch</h4>
+          <p style="width: 60%; margin: auto; margin-top: 15px; margin-bottom: 15px; ">Subscribe to our weekly
+            newsletter and receive exclusive offers on products you love!</p>
+          <input type="email" placeholder="E-mail adress">
+          <button style="border-radius: 10px;   height: 45px;">Subscribe</button>
+        </div>
+
+        <h2 style="text-align: center; margin-top: 50px;">Thank You for choosing us for your shopping needs </h2>
+
+      </section>
+
+
+
+
+
+
+      <a href="#" class="top" id="scrollToTop"> <i class="fa-solid fa-arrow-up"></i></a>
+
+
+      <footer>
+        <div class="shopease-des">
+          <a class="logo" href="#">SHOPEASE</a>
+          <p style="margin-left: 30px; margin-top: 10px; margin-bottom: 10px;">
+            Where quality meets convenience
+          </p>
+          <div class="reseauxx">
+            <a href="#"><img src="./assets/reseaux/fb.png"></a>
+            <a href="#"><img src="./assets/reseaux/meta.png"></a>
+            <a href="#"><img src="./assets/reseaux/ig.png"></a>
+            <a href="#"><img src="./assets/reseaux/Messenger.png"></a>
+            <a href="#"><img src="./assets/reseaux/WhatsApp.png"></a>
+            <a href="#"><img src="./assets/reseaux/LinkedIn.png"></a>
+            <a href="#"><img src="./assets/reseaux/Twitter.png"></a>
+            <a href="#"><img src="./assets/reseaux/Google.png"></a>
+            <a href="#"><img src="./assets/reseaux/Snapchat.png"></a>
+            <a href="#"><img src="./assets/reseaux/YouTube.png"></a>
+          </div>
+        </div>
+
+        <div class="product-list">
+          <h3>Product</h3>
+          <p>Features</p>
+          <p>Pricing</p>
+          <p>Case studies</p>
+          <p>Reviews</p>
+          <p>Updates</p>
+
+        </div>
+
+        <div class="support-list">
+          <h3>Support</h3>
+          <p>Getting started</p>
+          <p>Help center</p>
+          <p>Server status</p>
+          <p>Report a bug</p>
+          <p>Chat support</p>
+
+        </div>
+        <div class="contact-us-list">
+          <h3>Contact us</h3>
+          <div class="rsx">
+            <i class="fa-solid fa-phone"></i>
+            <p>0783818773</p>
+          </div>
+          <div class="rsx" style="margin-top: 10px; margin-bottom: 10px;">
+            <i class="fa-regular fa-envelope"></i>
+            <p>i.dadoune@esi-sba.dz</p>
+          </div>
+          <div class="rsx">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>Tissemsilt , Algeria</p>
+          </div>
+
+        </div>
+      </footer>
+
+    
+      <script src="js/main.js"></script>
+      
+
+</body>
+
+</html>
